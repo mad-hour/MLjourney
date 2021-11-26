@@ -49,7 +49,7 @@ for i in range(1,9):
     results[n_estimator]=get_score(n_estimator)
 
 #%%
-mport matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 %matplotlib inline
 
 plt.plot(list(results.keys()), list(results.values()))
